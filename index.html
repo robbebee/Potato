@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/pictureReview.css">
+  <script src="script.js"></script>
+
+  <body> 
+    <div class="navigationbar">
+      <div class="logo">
+        <img src="picture/logo.png">
+        <p> Potato</p>
+      </div>
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#Shop">Shop</a>
+      <a href="#contact">Kontakt</a>
+    </div>
+
+    <div class="advertisingSlogan" id="home">
+      <p class="topic" onclick="playAudio()" style="cursor: pointer;">Potato, we are completely different from Apple</p>
+      <audio id="myAudio">
+        <source src="audio/jingle.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div id="news">
+      <button onclick= "prevSlide()"class ="prev"></button>
+      <button onclick= "nextSlide()"class="next"></button>
+      <div class="Product" id="firstProduct">
+          <div class="pictureReview">
+            <div class="picture" id="potato_picture">
+              <img src="picture/handy1.jpg">
+              <img src="picture/handy2.jpg">
+              <img src="picture/handy3.jpg">
+            </div>
+          </div>
+          <div>
+            <p class="topic1">Potato 15</p>
+            <p class="text">
+                Das Potato 15 ist so schnell wie eine Kartoffel.<br> 
+                Mit seinem scharfen Display und intelligenten Blitz können Sie gestochen scharfe Bilder aufnehmen, die so gut sind, dass Sie denken werden, dass Sie in einer Kartoffelkamera sind. 
+                Und wenn Sie jemals in eine Situation geraten, in der Sie das Licht nicht optimal nutzen können, keine Sorge!<br>
+                Das Potato 15 hat einen Augenblitz, der Ihnen hilft, das perfekte Bild zu machen.<br>
+                Das Potato 15 ist auch ein Meister der Konnektivität. Mit seiner 4G-Unterstützung und WLAN-Konnektivität können Sie problemlos im Internet surfen und Ihre Lieblings-Apps nutzen. 
+                Und wenn Sie jemals in einem Gebiet ohne WLAN-Abdeckung sind, keine Sorge! Das Potato 15 verfügt über eine starke Antenne, die Ihnen eine Verbindung ermöglicht.<br>
+                Es ist so vielseitig wie eine Kartoffel, aber es ist alles andere als langweilig. Sie können es sogar frittieren, wenn Sie möchten!<br>
+             </p>
+          </div>
+        </div>
+        <div class="Product" id="secondProduct" style="display: none;">
+          <div class="pictureReview">
+            <div class="picture" id="sweet_potato_picture">
+              <img src="picture/handy4.jpg">
+              <img src="picture/handy5.jpg">
+              <img src="picture/handy6.jpg">
+              <img src="picture/handy7.jpg">
+              <img src="picture/handy8.jpg">
+            </div>
+          </div>
+          <div>
+            <p class="topic1">Sweet Potato</p>
+            <div class="text">
+              Freun Sie sich auf die neueste Generation von Smartphones – die Sweet Potato Reihe! <br>
+              Mit innovativen Funktionen, atemberaubendem Design und leistungsstarker Technologie wird diese Serie Ihr mobiles Leben revolutionieren.<br>
+              <br>
+              Was erwartet Sie in der Sweet Potato Reihe?<br>
+              <b>Schnelligkeit: </b> Ein blitzschneller Prozessor, der all deine Anforderungen mühelos bewältigt.<br><br>
+              <b>Kamera-Exzellenz:</b> Erlebe gestochen scharfe Fotos und Videos mit unserer fortschrittlichen Kameratechnologie.<br><br>
+              <b>Akku-Power:</b> Länger unterwegs sein, ohne ständig nach der nächsten Steckdose suchen zu müssen.<br><br>
+              <b>Elegantes Design:</b> Die Sweet Potato Reihe kombiniert Ästhetik und Funktionalität in einem schlanken Gehäuse.<br><br>
+              Mehr Details und technische Spezifikationen finden Sie weiter unten. <br>
+              Bleib dran – die Sweet Potato Reihe wird bald enthüllt! 
+            </div>
+          </div>
+        </div>
+        <div class="Product" id="sustainable" style="display: none;">
+          <img src="picture/kartoffelchips.jpg" class="pictureReview">
+          <div>
+            <p class="topic1">Nachhaltigkeit</p>
+            <div class="text">
+              Nachhaltigkeit ist ein zentrales Anliegen für uns. Daher bin ich stolz darauf, Ihnen unser neues Nachhaltigkeitskonzept zu präsentieren. 
+              Bei uns gibt es keine Verschwendung von Produktionsresten oder Fehlproduktionen mehr. <br>
+              Stattdessen nutzen wir diese Ressourcen weiter und verwandeln sie in unsere einzigartigen Kartoffelchips.<br><br> 
+              Jeder Chip trägt das Logo unserer geliebten Kartoffel – ein Symbol für Qualität, Nachhaltigkeit und den bewussten Umgang mit unseren Ressourcen.
+              Unsere Mission ist es, nicht nur großartige Chips herzustellen, sondern auch die Umwelt zu schützen. <br>
+              Indem wir unsere Reste wiederverwenden, tragen wir dazu bei, Abfall zu reduzieren und einen positiven Beitrag für unsere Erde zu leisten. <br>
+              Wir sind stolz darauf, dass unsere Chips nicht nur köstlich sind, sondern auch einen nachhaltigen Fußabdruck hinterlassen.<br><br>
+              Vielen Dank, dass Sie Teil unserer nachhaltigen Reise sind. Gemeinsam können wir die Welt ein Stückchen besser machen – knusprig, lecker und umweltfreundlich! 
+            </div>
+          </div>
+        </div>  
+    </div>
+    
+  
+
+    <div>
+      <button onclick= "prevSweetSlide()"class ="prev"></button>
+      <button onclick= "nextSweetSlide()"class="next"></button>
+      <div class="SweetPotato" id="firstSweetPotato">
+        <p class="topic1">Sweet Potato</p>
+        <p class="text">
+          In den Tiefen der Erdapfel-Technologie hat die Firma Potato ein revolutionäres Produkt geschaffen: das Sweet Potato. <br>
+          Dieses Handy ist nicht nur ein Kommunikationsgerät, sondern ein wahres Meisterwerk der Knollen-Ingenieurskunst.<br>
+          Design und Ästhetik: Das Sweet Potato ist so glatt und glänzend wie eine frisch gewaschene Kartoffel. <br>
+          Sein Gehäuse aus hochwertigem Stärkeplastik liegt angenehm in der Hand und verleiht dem Gerät eine rustikale Eleganz. <br>
+          Die Rückseite ziert ein geprägtes Kartoffel-Logo, das die Essenz von Sweet Potato einfängt: robust, vielseitig und ein bisschen knusprig.<br><br>
+        </p>
+      </div>
+      <div class="SweetPotato" id="secondSweetPotato" style="display: none;">
+        <p class="topic1">Sweet Potato</p>
+       <p class="text">
+        <b>Technische Daten:</b><br>
+        Kartoffel-Chip: Der Herzschlag des Sweet Potato ist der leistungsstarke Kartoffel-Chip. 
+                        Mit 8 Kernen und einer Taktung von 2,5 Gigakartoffeln pro Sekunde kann dieses Handy alles bewältigen, von der Textnachricht bis zum Kartoffelstampf.<br>
+        Speicher: 128 GB Kartoffel-Flash-Speicher, erweiterbar mit einer Kartoffel-SD-Karte.<br>
+        Kamera: Die Hauptkamera mit 12 Megakartoffeln schießt gestochen scharfe Fotos, während die Selfie-Kamera mit 8 Megakartoffeln Ihre besten Seiten hervorhebt.<br>
+        Akku: Der Sweet Potato-Akku hält stundenlang durch, egal ob Sie Kartoffelrezepte googeln oder Ihre Lieblingskartoffelhits streamen.<br><br>
+
+        <b>Features:</b><br>
+        Kartoffel-ID: Entsperren Sie Ihr Sweet Potato mit Ihrem einzigartigen Kartoffelabdruck.<br>
+        Kartoffel-Assistent: Siri und Google sind veraltet. Unser Kartoffel-Assistent beantwortet alle Ihre Fragen, von “Wie koche ich die perfekte Bratkartoffel?”
+                            bis zu “Was ist die Wurzel von Kartoffel?”<br>
+        Kartoffel-Display: Das 6,4-Zoll-Kartoffel-Display bietet lebendige Farben und eine hohe Auflösung. <br>
+                           Es ist kratzfest und fettresistent – perfekt für Kartoffelstempel und Kartoffelrezepte.<br>
+        Preis und Verfügbarkeit: Das Sweet Potato ist ab sofort erhältlich. Holen Sie sich Ihr eigenes Stück Kartoffel-Geschichte für nur 4999 Euro. <br><br>
+        
+        Aber beeilen Sie sich, denn die Nachfrage ist hoch – jeder will ein Stück von diesem köstlichen Technologieknollen!
+       </p>
+     </div>
+     <div class="SweetPotato"  id="thirdSweetPotato" style="display: none;">
+       <p class="topic1">Sweet Potato</p>
+       <video  class="video" controls><source src="video/workspace_sweet_potato.mp4" type="video/mp4"></video>
+     </div>
+    </div>
+
+    <div class="Impressum" id="contact">
+      <hr>
+      <h1>Impressum</h1>
+      <p>Potato AG</p>
+      <p>Potato-Street 1</p>
+      <p>12345 Potatocity, USA</p>
+      <p>Telefon: 12345 6789</p>
+      <p>E-mail: potato.we.are.the.best@gmail.com</p><br>
+    </div>
+  </body>
+</html>

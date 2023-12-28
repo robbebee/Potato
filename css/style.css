@@ -1,0 +1,207 @@
+
+/* Navigationbar*/
+.navigationbar {
+  background-color: rgb(235, 236, 132);
+  height: 50px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  top:0;
+  left: 0;
+  right: 0;
+}
+.navigationbar a {
+  float: left;
+  color: black;
+  background-color:rgb(235, 236, 132);
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigationbar a:hover {
+  background-color: #ddd;
+}
+
+/*Fit logo in navigationbar*/
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.logo img{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.logo p{
+    font-family: Arial;
+}
+
+/*Layout for Newsletter*/
+.Product{
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  border-radius: 25px;
+  border: 2px solid rgb(255, 185, 54);
+  box-shadow: 0px 0px 100px #db5256 inset;
+  background-color: rgb(228, 228, 111);
+  text-align: right;
+}
+
+.Product p{
+  display: flex;
+  justify-content: center;
+}
+
+/*Layout for the big thing Sweet Potato*/
+.SweetPotato{
+  width: 100%;
+  margin-top: 5%;
+  display: block;
+  border-radius: 25px;
+  border: 2px solid rgb(255, 185, 54);
+  box-shadow: 0px 0px 100px #db5256 inset;
+  background-color: rgb(228, 228, 111);
+  text-align: right;
+}
+.SweetPotato p{
+  margin-left: 10%;
+}
+
+/*Layout for arrows to switch information*/
+.prev{
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 2%;
+  width: 50px;
+  height: 50px;
+  background-image: url(../picture/arrow_left.jpg);
+  background-size: cover;
+}
+.next{
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 95%;
+  width: 50px;
+  height: 50px;
+  background-image: url(../picture/arrow_right.jpg);
+  background-size: cover;
+}
+
+.firstPrduct{
+  display: flex;
+}
+.secondProduct{
+  display: none;
+}
+
+.text{
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
+
+.Impressum{
+  margin-top: 10%;
+  text-align: center;
+  background-color: rgb(224, 224, 224);
+}
+
+.advertisingSlogan{
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../picture/background.jpg);
+  height: 920px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+}
+
+.pictureReview{
+  position: relative;
+  margin-top: 10%;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.picture > img {
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  display: none;
+}
+
+.picture > img:first-child {
+  display: block;
+}
+
+.video{
+  position: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25%;
+  margin-bottom: 10%;
+  height: 400px;
+  width: 800px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+}
+.picture img {
+  top:0;
+  -webkit-animation-name: fade;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+/*Topic variation*/
+.topic{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18%;
+  font-size: 40px;
+}
+
+.topic1{
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 600; 
+}
+
+/*Animation*/
+@-webkit-keyframes fade {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  33% {opacity: 1;}
+  53% {opacity: 0;}
+  100% {opacity: 0;}
+}
+@keyframes fade {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  33% {opacity: 1;}
+  53% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
