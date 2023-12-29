@@ -1,4 +1,6 @@
-
+.background{
+  background-color: rgb(252, 252, 166);
+}
 /* Navigationbar*/
 .navigationbar {
   background-color: rgb(235, 236, 132);
@@ -85,6 +87,14 @@
   margin-left: 10%;
 }
 
+.Product button{
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-image: url(../picture/arrow_left.jpg);
+  background-size: cover;
+}
 /*Layout for arrows to switch information*/
 .prev{
   position: absolute;
@@ -107,14 +117,13 @@
 
 /*picture prentation*/
 .pictureReview{
-  position: block;
-  margin-top: 10%;
+  margin-top: 200px;
   margin-left: 100px;
   margin-bottom: 40px;
   height: 400px;
   width: 400px;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 2px solid rgb(26, 21, 21);
   background-color: white;
 }
 
@@ -142,7 +151,6 @@
 }
 
 .video{
-  position: flex;
   align-items: center;
   justify-content: center;
   margin-right: 25%;
@@ -173,7 +181,6 @@
 
 /*Topic variation*/
 .topic{
-  display: flex;
   justify-content: center;
   margin-bottom: 18%;
   font-size: 40px;
