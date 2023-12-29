@@ -8,8 +8,8 @@ Features:
 -Werbevideo(selbstgemacht)
 
 Qullen:
-https://www.flexclip.com/(Intro vom Werbevideo)
-https://www.youtube.com/watch?v=ux6zXguiqxM(Apple event 2022. Anfang vom Werbevideo)
+https://www.flexclip.com/ (Intro vom Werbevideo)
+https://www.youtube.com/watch?v=ux6zXguiqxM (Apple event 2022. Anfang vom Werbevideo)
 (Tim Cook wurde von mir "synchronisiert" :) )
 
 Musikeffekte:
