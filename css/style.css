@@ -153,7 +153,7 @@
 .video{
   align-items: center;
   justify-content: center;
-  margin-right: 25%;
+  margin-right: 450px;
   margin-bottom: 10%;
   height: 400px;
   width: 800px;
@@ -182,7 +182,7 @@
 /*Topic variation*/
 .topic{
   justify-content: center;
-  margin-bottom: 18%;
+  margin-bottom: 400px;
   font-size: 40px;
 }
 
